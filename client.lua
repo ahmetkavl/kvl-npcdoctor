@@ -1,4 +1,4 @@
-ESX = exports["es_extended"]:getSharedObject()
+
 
 local ox_target = exports.ox_target
 
@@ -15,9 +15,6 @@ for k, v in pairs(KVL['Doctors'].Legal) do
             {
                 name = 'revive',
                 label = 'Revive '..KVL['Prices'].LegalPrice..'$',
-                canInteract = function(entity, distance, coords, name)
-                    return true
-                end,
                 onSelect = function()
                     LegalDoc = true
                     MoneyCheck()
@@ -37,9 +34,6 @@ for k, v in pairs(KVL['Doctors'].Illegal) do
             {
                 name = 'revive',
                 label = 'Revive '..KVL['Prices'].IllegalPrice..'$',
-                canInteract = function(entity, distance, coords, name)
-                    return true
-                end,
                 onSelect = function()
                     IllegalDoc = true
                     MoneyCheck()

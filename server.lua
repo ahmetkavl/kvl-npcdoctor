@@ -1,4 +1,3 @@
-ESX = exports["es_extended"]:getSharedObject()
 
 
 RegisterServerEvent('kvl:removemoney')
