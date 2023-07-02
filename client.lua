@@ -1,4 +1,4 @@
-
+ESX = exports["es_extended"]:getSharedObject()
 
 local ox_target = exports.ox_target
 

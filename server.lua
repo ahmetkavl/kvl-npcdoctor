@@ -1,4 +1,4 @@
-
+ESX = exports["es_extended"]:getSharedObject()
 
 RegisterServerEvent('kvl:removemoney')
 AddEventHandler('kvl:removemoney', function(price)
